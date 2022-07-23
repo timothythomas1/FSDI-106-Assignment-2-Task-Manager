@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+}
+h1 {
+  color: white;
+  background-color: #2f3e46  ;
+  text-align: center;
+  padding: 10px;
+  border: black 1px solid;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+h3 {
+	text-align: center;
+	color: white;
+	text-shadow: -1px 0 #2f3e46, 0 1px #2f3e46, 1px 0 #2f3e46, 0 -1px #2f3e46;
+}
+hr {
+	position: relative;
+	border: none;
+	height: 2px;
+	background: black;
+}
+.main-container{
+  display: flex;
+  height: calc(100% - 90px);
+}
+.sec-list{
+  color: #2f3e46;
+  background-color: #52796f ;
+  text-align: center;
+  flex: 3;
+  border: #2f3e46 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+  
+}
+.sec-form{
+  color: black;
+  background-color: #84a98c;
+  flex: 1;
+  border: #2f3e46 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+.my-control {
+  display: block;
+  margin-bottom: 7px;
+
+}
+
+.my-control label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.my-control input,
+.my-control select,
+.my-control textarea {
+  display: inline-block;
+  padding: 5px 10px;
+  width: 70%;
+}
+
+#iImportant{
+  font-size: 30px;
+  color: #2f3e46;
+  cursor: pointer;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
